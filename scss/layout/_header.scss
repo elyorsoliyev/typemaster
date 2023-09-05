@@ -1,0 +1,28 @@
+.header {
+  margin-bottom: 4.1rem;
+  .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5.5rem;
+
+    .site-logo:hover{
+      opacity: 0.8;
+    }
+    
+    .site-logo:active{
+      opacity: 0.5;
+    }
+  }
+}
+
+
+.header__link:active {
+  border:2px dotted $dark-green-color;
+  background-color: $white-color;
+  color: $dark-green-color;
+}
+
+.btn-dark {
+  transition: 0.3s;
+}

@@ -1,0 +1,27 @@
+.btn {
+  padding: 1.6rem 2.7rem;
+  font-weight: 700;
+  line-height: 1.625;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.btn-orange{
+  background-color: $orange-color;
+  color: $white-color;
+  transition: 0.3s;
+}
+
+.btn-orange:hover{
+  background-color: $orange-light-color;
+}
+
+.btn-dark{
+  background-color: $sky-blue-color;
+  color: $dark-green-color;
+}
+
+.btn-dark:hover{
+  background-color: $dark-green-color;
+  color: $white-color;
+}
